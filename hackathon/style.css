@@ -1,0 +1,146 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    z-index: 10;
+    display: flex;
+    background-color:white;
+    font-size: large;
+    background-color: transparent;
+}
+
+.navbar a {
+    /*color: rgb(0, 140, 255);*/
+    color: #28a745;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    position: -webkit-sticky;
+    overflow: hidden;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .right {
+    margin-left: auto;
+    background-color: #28a745;
+    color: aliceblue;
+    border-radius: 25px;
+    border: 2px lightgreen;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.navbar .right:hover {
+  background-color: #2a853f;
+}
+
+.backimg {
+  width: 50px;
+  height: 50px;
+}
+
+    
+
+
+/*start*/
+
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: #fff;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #008080;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+ul li {
+  padding: 10px 15px;
+  margin: 10px 0;
+  background: #f0f8ff;
+  border-radius: 8px;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background: #e6f7ff;
+  border-left: 5px solid #0073e6;
+  color: #005c99;
+  font-style: italic;
+  border-radius: 8px;
+  width:400px;
+}
+
+blockquote::before {
+  content: "“";
+  font-size: 2rem;
+  color: #008080;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+blockquote::after {
+  content: "”";
+  font-size: 2rem;
+  color: #008080;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  color: #0073e6;
+}
+
+footer a {
+  color: #005c99;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.statistics {
+  z-index: 1;
+}

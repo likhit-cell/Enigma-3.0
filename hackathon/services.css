@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro, .services-list, .specialties {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    z-index: 10;
+    display: flex;
+    background-color:white;
+    font-size: large;
+    background-color: transparent;
+    margin: 8px;
+}
+
+.navbar a {
+    /*color: rgb(0, 140, 255);*/
+    color: #28a745;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    position: -webkit-sticky;
+    overflow: hidden;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .right {
+    margin-left: auto;
+    background-color: #28a745;
+    color: aliceblue;
+    border-radius: 25px;
+    border: 2px lightgreen;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.navbar .right:hover {
+  background-color: #2a853f;
+}
+
+.backimg {
+    width: 50px;
+    height: 50px;
+}
